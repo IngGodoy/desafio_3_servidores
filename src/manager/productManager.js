@@ -1,4 +1,5 @@
-const fs = require('fs');
+import fs from "fs";
+//const fs = require('fs');
 
 class ProductManager {
 
@@ -135,23 +136,4 @@ class ProductManager {
 
 };
 
-//test
-
-const products = new ProductManager('./products.json');
-
-const test = async ()=>{
-
-  const productConsult = await products.getProducts();
-  console.log(productConsult)
-  await products.addProduct("prueba titulo", "description", 200, "thumbnail", "code", 20)
-  await products.addProduct("prueba titulo 2", "description 2", 200, "thumbnail 2", "code2", 50)
-  await products.addProduct("prueba titulo 3", "description 3", 200, "thumbnail 3", "code3", 50)
-  await products.addProduct("prueba titulo 4", "description 4", 200, "thumbnail 4", "code4", 90)
-  const productById = await products.getProductById(2)
-  console.log("productById: ", productById)
-  await products.updateProduct(2,"actualizar prueba", "description 2", 200, " actualizar thumbnail 2", "code2", 900)
-  await products.deletecProduct(3)
-}
-
-test();
-//node ./productManager.js
+export default ProductManager;

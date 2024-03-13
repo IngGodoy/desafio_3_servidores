@@ -1,1 +1,13 @@
-[{"id":1,"title":"prueba titulo","description":"description","price":200,"thumbnail":"thumbnail","code":"code","stock":20},{"id":2,"title":"actualizar prueba","description":"description 2","price":200,"thumbnail":" actualizar thumbnail 2","code":"code2","stock":900},{"id":4,"title":"prueba titulo 4","description":"description 4","price":200,"thumbnail":"thumbnail 4","code":"code4","stock":90}]
+[
+    {"id": 1, "title": "prueba titulo", "description": "description", "price": 200, "thumbnail": "thumbnail", "code": "code", "stock": 20},
+    {"id": 2, "title": "actualizar prueba", "description": "description 2", "price": 200, "thumbnail": "actualizar thumbnail 2", "code": "code2", "stock": 900},
+    {"id": 4, "title": "prueba titulo 4", "description": "description 4", "price": 200, "thumbnail": "thumbnail 4", "code": "code4", "stock": 90},
+    {"id": 5, "title": "prueba titulo 5", "description": "description 5", "price": 300, "thumbnail": "thumbnail 5", "code": "code5", "stock": 90},
+    {"id": 6, "title": "prueba titulo 6", "description": "description 6", "price": 250, "thumbnail": "thumbnail 6", "code": "code6", "stock": 60},
+    {"id": 7, "title": "prueba titulo 7", "description": "description 7", "price": 280, "thumbnail": "thumbnail 7", "code": "code7", "stock": 80},
+    {"id": 8, "title": "prueba titulo 8", "description": "description 8", "price": 210, "thumbnail": "thumbnail 8", "code": "code8", "stock": 70},
+    {"id": 9, "title": "prueba titulo 9", "description": "description 9", "price": 320, "thumbnail": "thumbnail 9", "code": "code9", "stock": 50},
+    {"id": 10, "title": "prueba titulo 10", "description": "description 10", "price": 280, "thumbnail": "thumbnail 10", "code": "code10", "stock": 100}
+]
+  
+  
